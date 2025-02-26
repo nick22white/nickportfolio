@@ -1,0 +1,26 @@
+
+/* Style for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Pushes left and right sections apart */
+    align-items: center; /* Aligns items vertically */
+    padding: 15px 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+/* Style for the nav links */
+.nav-left a, .nav-right a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-right a {
+    margin-left: 20px; /* Adds spacing between links */
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
